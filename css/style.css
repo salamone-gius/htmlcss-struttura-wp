@@ -4,6 +4,10 @@
     padding: 0;
 }
 
+header, .section.one {
+    margin-bottom: 20px;
+}
+
 .container {
     width: 80%;
     margin: 20px auto;
@@ -11,36 +15,50 @@
 
 header {
     background-color: rgb(229, 121, 230);
-    height: 150px;
-    margin-bottom: 20px;
+    min-height: 150px;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
 }
 
 .section.one {
     background-color: rgb(225, 214, 122);
-    height: 500px;
-    margin-bottom: 20px;
+    min-height: 500px;
 }
 
 .section.two {
     background-color: rgb(0, 135, 255);
-    height: 800px;
+    min-height: 800px;
     margin-bottom: 5px;
 }
 
+.section-header {
+    background-color: rgb(171, 207, 231);
+    min-height: 100px;
+    margin-bottom: 20px;
+}
 
+.col {
+    background-color: rgb(171, 207, 231);
+    min-height: 700px;
+    margin-bottom: 20px;
+    float: left;
+}
 
+.left, .right {
+    min-width: 20%;
+}
 
+.middle {
+    min-width: calc(60% - 40px);
+    margin: 0 20px;
+}
 
-
-
-
-
-    /* background-color: rgb(171, 207, 231); */
-
-
-/* footer {
+footer {
     background-color: rgb(136, 1, 254);
     height: 50px;
-    width: 80%;
-    margin: 20px auto;
-} */
+    margin-top: 10px;
+}

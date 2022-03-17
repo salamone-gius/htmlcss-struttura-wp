@@ -3,3 +3,11 @@
     margin: 0;
     padding: 0;
 }
+
+header {
+    background-color: rgb(229, 121, 230);
+    height: 150px;
+    width: 80%;
+    margin: 20px auto;
+}
+

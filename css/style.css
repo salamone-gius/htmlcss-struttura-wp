@@ -4,10 +4,43 @@
     padding: 0;
 }
 
-header {
-    background-color: rgb(229, 121, 230);
-    height: 150px;
+.container {
     width: 80%;
     margin: 20px auto;
 }
 
+header {
+    background-color: rgb(229, 121, 230);
+    height: 150px;
+    margin-bottom: 20px;
+}
+
+.section.one {
+    background-color: rgb(225, 214, 122);
+    height: 500px;
+    margin-bottom: 20px;
+}
+
+.section.two {
+    background-color: rgb(0, 135, 255);
+    height: 800px;
+    margin-bottom: 5px;
+}
+
+
+
+
+
+
+
+
+
+    /* background-color: rgb(171, 207, 231); */
+
+
+/* footer {
+    background-color: rgb(136, 1, 254);
+    height: 50px;
+    width: 80%;
+    margin: 20px auto;
+} */
